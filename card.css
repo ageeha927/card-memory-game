@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 20px auto;
+    position: relative;
+    left: 1vw;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.moves {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
